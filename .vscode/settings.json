@@ -1,0 +1,8 @@
+{
+	"code-runner.saveFileBeforeRun": true,
+	"code-runner.runInTerminal": true,
+	"code-runner.executorMap": {
+		"c": "cd $dir && mkdir -p compiled && gcc -g $fileName -o compiled/$fileNameWithoutExt && ./compiled/$fileNameWithoutExt",
+		"cpp": "cd $dir && mkdir -p compiled && g++ -g $fileName -o compiled/$fileNameWithoutExt && ./compiled/$fileNameWithoutExt"
+	}
+}

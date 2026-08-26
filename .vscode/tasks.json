@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compilar C++ local",
+			"type": "shell",
+			"command": "mkdir -p '${fileDirname}/compiled' && g++ -g '${file}' -o '${fileDirname}/compiled/${fileBasenameNoExtension}'",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Cria uma pasta compiled na subpasta atual e compila o executável nela."
+		}
+	]
+}

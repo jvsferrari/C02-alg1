@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Depurar C/C++ (CodeLLDB)",
+			"type": "lldb",
+			"request": "launch",
+			"program": "${fileDirname}/compiled/${fileBasenameNoExtension}",
+			"args": [],
+			"cwd": "${fileDirname}",
+			"terminal": "integrated",
+			"preLaunchTask": "Compilar C++ local"
+		}
+	]
+}
