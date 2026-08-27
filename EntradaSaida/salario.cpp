@@ -1,17 +1,17 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
-int main (){
+int main() {
     int number;
     int hours;
     double rate;
-    
+
     cin >> number >> hours >> rate;
-    
+
     double salary;
-    
+
     salary = hours * rate;
 
     cout << fixed << setprecision(2);

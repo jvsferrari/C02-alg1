@@ -2,32 +2,27 @@
 
 using namespace std;
 
-int main (){
+int main() {
     double numero;
     cin >> numero;
 
-    if (numero >= 0 &&numero <= 25)
-    {
+    if (numero >= 0 && numero <= 25) {
         cout << "Intervalo [0,25]" << endl;
-    }
-    else if (numero> 25 && numero<= 50)
-    {
+    } else if (numero > 25 && numero <= 50) {
         cout << "Intervalo (25,50]" << endl;
-    }
-    else if (numero > 50 &&numero <= 75)
-    {
+    } else if (numero > 50 && numero <= 75) {
         cout << "Intervalo (50,75]" << endl;
-    }
-    else if (numero > 75 &&numero <= 100)
-    {
+    } else if (numero > 75 && numero <= 100) {
         cout << "Intervalo (75,100]" << endl;
-    }
-    else 
+    } else
         cout << "Fora de intervalo" << endl;
 
     return 0;
 }
-/* Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos seguintes intervalos ([0,25], (25,50], (50,75], (75,100]) este valor se encontra. Obviamente se o valor não estiver em nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.
+/* Você deve fazer um programa que leia um valor qualquer e apresente uma
+mensagem dizendo em qual dos seguintes intervalos ([0,25], (25,50], (50,75],
+(75,100]) este valor se encontra. Obviamente se o valor não estiver em nenhum
+destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.
 
 O símbolo ( representa "maior que". Por exemplo:
 [0,25]  indica valores entre 0 e 25.0000, inclusive eles.

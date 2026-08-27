@@ -1,9 +1,9 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
-int main(){
+int main() {
     int codigo;
     int quantidade;
     double precos[5] = {4, 4.5, 5, 2, 1.5};

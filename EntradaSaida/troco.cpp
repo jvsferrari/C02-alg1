@@ -1,9 +1,9 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
-int main(){
+int main() {
     double dinheiro;
     double preco;
 
@@ -11,8 +11,8 @@ int main(){
     double troco = dinheiro - preco;
 
     cout << fixed << setprecision(2);
-    
-    if (dinheiro < preco){
+
+    if (dinheiro < preco) {
         cout << "Dinheiro insuficiente!";
         return 1;
     };

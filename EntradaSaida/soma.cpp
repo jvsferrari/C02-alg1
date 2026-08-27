@@ -2,16 +2,15 @@
 
 using namespace std;
 
-int main(){
+int main() {
+    int A;
+    int B;
 
-int  A;
-int  B;
+    cin >> A >> B;
 
-cin >> A >> B;
+    int X;
 
-int X;
+    X = A + B;
 
-X = A + B;
-
-cout << "X = " << X << endl;
+    cout << "X = " << X << endl;
 }

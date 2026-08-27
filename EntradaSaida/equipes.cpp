@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
     int alunos;
     int grupos;
     cin >> alunos;
