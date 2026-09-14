@@ -13,4 +13,5 @@ int main() {
         };
     };
     cout << counter << " valores positivos" << endl;
+    return 0;
 }

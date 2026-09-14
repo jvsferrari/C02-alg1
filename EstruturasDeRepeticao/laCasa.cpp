@@ -18,4 +18,5 @@ int main() {
         cout << "A maioria gostou" << endl;
     } else
         cout << "Deu empate" << endl;
+    return 0;
 }
