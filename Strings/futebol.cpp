@@ -28,4 +28,6 @@ int main() {
     if (!adultos) {
         cout << "Nenhum jogador com 18 anos ou mais\n";
     }
+
+    return 0;
 }
