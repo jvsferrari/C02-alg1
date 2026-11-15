@@ -12,22 +12,21 @@ int main() {
 
     Storm storms[100];
 
-    int id = 1;
-    int count = 1;
+    int id;
+    int count = 0;
 
-    for (int i = 0; id != 0; i++) {
+    do {
         cin >> id;
-        if (id == 0) {
-            break;
+        if (id != 0) {
+            storms[count].id = id;
+            cin >> storms[count].im >> storms[count].fa;
+            storms[count].ga = (storms[count].im + storms[count].fa) / 2;
+            count++;
         }
-        storms[i].id = id;
-        cin >> storms[i].im >> storms[i].fa;
-        storms[i].ga = (storms[i].im + storms[i].fa) / 2;
-        count++;
-    }
+    } while (id != 0);
 
     int melhor = 0;
-    for (int i = 0; i < count; i++) {
+    for (int i = 0; i <= count; i++) {
         if (storms[i].ga > storms[melhor].ga) {
             melhor = i;
         }
